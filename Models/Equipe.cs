@@ -21,10 +21,6 @@ namespace A37_EPLAYERS.Models
             File.AppendAllLines(PATH, linha);
         }
 
-        private string Prepare(Equipe e){
-            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
-        }
-
         public List<Equipe> ReadAll()
         {
             List<Equipe> equipes = new List<Equipe>();
@@ -55,6 +51,9 @@ namespace A37_EPLAYERS.Models
             List<string> linhas = ReadAllLinesCSV(PATH);
             linhas.RemoveAll(x => x.Split(";")[0] == id.ToString());
             RewriteCSV(PATH, linhas);
+        }
+        private string Prepare(Equipe e){
+            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
     }
 }
