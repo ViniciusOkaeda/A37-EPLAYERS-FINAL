@@ -20521,6 +20521,11 @@
   "RootNamespace": "A37_EPLAYERS",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\vinny\\OneDrive\\Área de Trabalho\\SENAI\\FRONT&BACK\\A37-EPLAYERS\\Views\\Noticias\\Index.cshtml",
+      "TargetPath": "Views\\Noticias\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\vinny\\OneDrive\\Área de Trabalho\\SENAI\\FRONT&BACK\\A37-EPLAYERS\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -20533,6 +20538,11 @@
     {
       "FilePath": "c:\\Users\\vinny\\OneDrive\\Área de Trabalho\\SENAI\\FRONT&BACK\\A37-EPLAYERS\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vinny\\OneDrive\\Área de Trabalho\\SENAI\\FRONT&BACK\\A37-EPLAYERS\\Views\\Equipe\\Index.cshtml",
+      "TargetPath": "Views\\Equipe\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
