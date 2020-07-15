@@ -27,11 +27,11 @@ namespace A37_EPLAYERS.Models
             string[] linhas = File.ReadAllLines(PATH);
             foreach (var item in linhas)
             {
-                string[] linha = item.Split(";");
-                Equipe equipe = new Equipe();
+                string[] linha  = item.Split(";");
+                Equipe equipe   = new Equipe();
                 equipe.IdEquipe = Int32.Parse(linha[0]);
-                equipe.Nome = linha[1];
-                equipe.Imagem = linha[2];
+                equipe.Nome     = linha[1];
+                equipe.Imagem   = linha[2];
 
                 equipes.Add(equipe);
             }
