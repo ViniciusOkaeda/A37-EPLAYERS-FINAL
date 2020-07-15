@@ -55,7 +55,7 @@ namespace A37_EPLAYERS.Controllers
             return LocalRedirect("~/Equipe");
         }
 
-         [Route("{id}")]
+         [Route("Equipe/{id}")]
         public IActionResult Excluir(int id)
         {
             equipeModel.Delete(id);
