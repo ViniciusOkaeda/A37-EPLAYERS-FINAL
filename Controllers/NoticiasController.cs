@@ -26,10 +26,12 @@ namespace A37_EPLAYERS.Controllers
             novaNoticia.IdNoticia = Int32.Parse(form["IdNoticia"]);
             novaNoticia.Titulo     = form["Titulo"];
             novaNoticia.Texto     = form["Texto"];
+            
             // Upload Início
             var file    = form.Files[0];
-            var folder  = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Noticia");
+            var folder  = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/Noticias");
 
+            //se a variavel for diferente de vazio vai verificar se existe a pasta img dentro do wwwroot, se não existir vai criar a pasta 
             if(file != null)
             {
                 if(!Directory.Exists(folder)){
