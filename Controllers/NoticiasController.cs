@@ -54,7 +54,7 @@ namespace A37_EPLAYERS.Controllers
             noticiasModel.Create(novaNoticia);
             ViewBag.Noticia = noticiasModel.ReadAll();
 
-            return LocalRedirect("~/Equipe");
+            return LocalRedirect("~/Noticias");
         }
 
          [Route("Noticias/{id}")]
